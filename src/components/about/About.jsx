@@ -60,7 +60,7 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corporis eligendi qui officiis quo quasi distinctio veritatis blanditiis molestiae dolore sequi mollitia, dolor accusamus? Numquam expedita ducimus quisquam voluptas quae.
           </p>
 
-          <a href="#contact" class="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">Let's Talk</a>
       </div>
       </div>
     </section>
