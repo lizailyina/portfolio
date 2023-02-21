@@ -57,7 +57,8 @@ const About = () => {
 
           </div>
           <p> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corporis eligendi qui officiis quo quasi distinctio veritatis blanditiis molestiae dolore sequi mollitia, dolor accusamus? Numquam expedita ducimus quisquam voluptas quae.
+            I'm an aspiring self-driven Front-end Web developer. 
+            Here you can find a list of skills I have mastered, see examples of my work and contact me.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

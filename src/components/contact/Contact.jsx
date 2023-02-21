@@ -44,14 +44,14 @@ export const Contact = () => {
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>lizailyina13052005@gmail.com</h5>
-            <a href="https://m.me/profileid" target="_blank">Send a message</a>
+            <h5>Facebook</h5>
+            <a href="https://m.me/100087213409218" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <AiOutlineMail className='contact__option-icon'/>
             <h4>WhatApp</h4>
-            <h5>lizailyina13052005@gmail.com</h5>
-            <a href="https://api.whatsapp.com/send?phone=number" target="_blank">Send a message</a>
+            <h5>Messenger</h5>
+            <a href="https://api.whatsapp.com/send?phone=12247179094" target="_blank">Send a message</a>
           </article>
         </div>
         {/*END OF CONTACT OPTIONS*/}
