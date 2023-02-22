@@ -35,24 +35,30 @@ export const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-        <article className="contact__option">
+          <a href="mailto:lizailyina13052005@gmail.com">
+          <article className="contact__option">
             <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>lizailyina13052005@gmail.com</h5>
             <a href="mailto:lizailyina13052005@gmail.com" target="_blank">Send a message</a>
           </article>
-          <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>Facebook</h5>
-            <a href="https://m.me/100087213409218" target="_blank">Send a message</a>
-          </article>
-          <article className="contact__option">
-            <AiOutlineMail className='contact__option-icon'/>
-            <h4>WhatApp</h4>
-            <h5>Messenger</h5>
-            <a href="https://api.whatsapp.com/send?phone=12247179094" target="_blank">Send a message</a>
-          </article>
+          </a>
+          <a href="https://m.me/100087213409218">
+            <article className="contact__option">
+              <RiMessengerLine className='contact__option-icon'/>
+              <h4>Messenger</h4>
+              <h5>Facebook</h5>
+              <a href="https://m.me/100087213409218" target="_blank">Send a message</a>
+            </article>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=12247179094">
+            <article className="contact__option">
+              <AiOutlineMail className='contact__option-icon'/>
+              <h4>WhatApp</h4>
+              <h5>Messenger</h5>
+              <a href="https://api.whatsapp.com/send?phone=12247179094" target="_blank">Send a message</a>
+            </article>
+          </a>
         </div>
         {/*END OF CONTACT OPTIONS*/}
         <form onSubmit={sendEmail}>

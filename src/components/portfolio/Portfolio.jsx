@@ -39,20 +39,22 @@ const Portfolio = () => {
         {
           data.map(({id, image, title, github, demo}) => {
             return (
-              <article key={id} className="portfolio__item">
-                <div className="portfolio__item-image">
-                  <img src={image} alt="" />
-                </div>
-                <h3>{title}</h3>
-                <div className="portfolio__item-cta">
-                  <a href={github} className="btn" target="_blank">
-                    Github
-                  </a>
-                  <a href={demo} className="btn btn-primary" target="_blank">
-                    Live Demo
-                  </a>
-                </div>
-              </article>
+              <a href={demo} > 
+                <article key={id} className="portfolio__item">
+                  <div className="portfolio__item-image">
+                    <img src={image} alt="" />
+                  </div>
+                  <h3>{title}</h3>
+                  <div className="portfolio__item-cta">
+                    <a href={github} className="btn" target="_blank">
+                      Github
+                    </a>
+                    <a href={demo} className="btn btn-primary" target="_blank">
+                      Live Demo
+                    </a>
+                  </div>
+                </article>
+              </a>
             )
           })
         }
