@@ -48,14 +48,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4> Javasript </h4>
+                <h4> Javasript + Typescript </h4>
                 <small className='text-light'> Intermediate </small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4> Bootstrap, Chakra UI, and other libraries... </h4>
+                <h4> Bootstrap, Chakra UI, ... </h4>
                 <small className='text-light'> Experienced </small>
               </div>
             </article>
@@ -75,7 +75,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4> Github, Git, Gitbash </h4>
+                <h4> Github, Git </h4>
                 <small className='text-light'> Experienced </small>
               </div>
             </article>

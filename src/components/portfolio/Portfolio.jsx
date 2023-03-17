@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
 
 const data = [
   {
@@ -25,6 +26,13 @@ const data = [
     title: "TwentyNineMonths",
     github: "https://github.com/lizailyina/TwentyNineMonths",
     demo: "https://lizailyina.github.io/TwentyNineMonths",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "React Pizza",
+    github: "https://github.com/lizailyina/react-pizza",
+    demo: "https://react-pizza-ptnumzpmt-lizailyina.vercel.app/",
   }
 ]
 
@@ -37,9 +45,9 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({ id, image, title, github, demo }) => {
             return (
-              <a href={demo} > 
+              <a href={demo} >
                 <article key={id} className="portfolio__item">
                   <div className="portfolio__item-image">
                     <img src={image} alt="" />
