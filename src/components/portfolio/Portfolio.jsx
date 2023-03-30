@@ -4,6 +4,7 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
+import IMG5 from '../../assets/portfolio5.jpg'
 
 const data = [
   {
@@ -33,6 +34,13 @@ const data = [
     title: "React Pizza",
     github: "https://github.com/lizailyina/react-pizza",
     demo: "https://react-pizza-ptnumzpmt-lizailyina.vercel.app/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "NewTube",
+    github: "https://github.com/lizailyina/youtube-frontend",
+    demo: "https://youtube-frontend-rho.vercel.app/",
   }
 ]
 
