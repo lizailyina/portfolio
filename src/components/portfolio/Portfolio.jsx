@@ -9,39 +9,39 @@ import IMG5 from '../../assets/portfolio5.jpg'
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "React MERN Blog",
-    github: "https://github.com/lizailyina/blog-front-end",
-    demo: "https://blog-front-er23egbs5-lizailyina.vercel.app/",
+    image: IMG5,
+    title: "NewTube",
+    github: "https://github.com/lizailyina/youtube-frontend",
+    demo: "https://youtube-frontend-rho.vercel.app/",
   },
   {
     id: 2,
-    image: IMG2,
-    title: "React Sneakers",
-    github: "https://github.com/lizailyina/react-sneakers",
-    demo: "https://react-sneakers-6phsu21bf-lizailyina.vercel.app/",
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: "TwentyNineMonths",
-    github: "https://github.com/lizailyina/TwentyNineMonths",
-    demo: "https://lizailyina.github.io/TwentyNineMonths",
-  },
-  {
-    id: 4,
     image: IMG4,
     title: "React Pizza",
     github: "https://github.com/lizailyina/react-pizza",
     demo: "https://react-pizza-ptnumzpmt-lizailyina.vercel.app/",
   },
   {
+    id: 3,
+    image: IMG1,
+    title: "React MERN Blog",
+    github: "https://github.com/lizailyina/blog-front-end",
+    demo: "https://blog-front-er23egbs5-lizailyina.vercel.app/",
+  },
+  {
+    id: 4,
+    image: IMG2,
+    title: "React Sneakers",
+    github: "https://github.com/lizailyina/react-sneakers",
+    demo: "https://react-sneakers-6phsu21bf-lizailyina.vercel.app/",
+  },
+  {
     id: 5,
-    image: IMG5,
-    title: "NewTube",
-    github: "https://github.com/lizailyina/youtube-frontend",
-    demo: "https://youtube-frontend-rho.vercel.app/",
-  }
+    image: IMG3,
+    title: "TwentyNineMonths",
+    github: "https://github.com/lizailyina/TwentyNineMonths",
+    demo: "https://lizailyina.github.io/TwentyNineMonths",
+  },
 ]
 
 
