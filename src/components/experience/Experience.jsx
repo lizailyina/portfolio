@@ -20,7 +20,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4> HTML </h4>
+                <h4> React </h4>
                 <small className='text-light'> Experienced </small>
               </div>
             </article>
@@ -34,8 +34,8 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4> React v18 </h4>
-                <small className='text-light'> Experienced </small>
+                <h4> Typescript </h4>
+                <small className='text-light'> Intermediate </small>
               </div>
             </article>
             <article className="experience__details">
@@ -48,14 +48,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4> Javasript + Typescript </h4>
-                <small className='text-light'> Intermediate </small>
+                <h4> TanStack Query </h4>
+                <small className='text-light'> Experienced </small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4> Bootstrap, Chakra UI, ... </h4>
+                <h4> Material UI, Chakra UI, ... </h4>
                 <small className='text-light'> Experienced </small>
               </div>
             </article>
@@ -82,8 +82,8 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4> Algorithms and Data Structures </h4>
-                <small className='text-light'> Experienced </small>
+                <h4> Api Testing: Jest,&nbsp;&nbsp; Supertest, Factory BOT </h4>
+                <small className='text-light'> Intermediate </small>
               </div>
             </article>
             <article className="experience__details">
@@ -97,6 +97,13 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4> Competative programming </h4>
+                <small className='text-light'> Experienced </small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4> Algorithms and Data Structures </h4>
                 <small className='text-light'> Experienced </small>
               </div>
             </article>

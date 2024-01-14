@@ -42,7 +42,7 @@ const About = () => {
                 Experience
               </h5>
               <small>
-                1+ Year
+                3+ Year
               </small>
             </article>
             <article className='about__card'>
@@ -57,8 +57,8 @@ const About = () => {
 
           </div>
           <p> 
-            I'm an aspiring self-driven Front-end Web developer. 
-            Here you can find a list of skills I have mastered, see examples of my work and contact me.
+            I'm a fullstack software engineer, specialized om MERN stack, with a preference for the front-end. 
+            Here you can find a list of skills I have mastered and see examples of my work.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
